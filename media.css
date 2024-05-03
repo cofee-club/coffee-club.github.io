@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+    .buttons {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .col_menu {
+        display: block;
+    }
+
+    .row_menu {
+        display: block;
+        margin-left: 28px;
+        padding: 5px 0px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+    
+    li ul, div ol {
+        display: none;
+    }
+    
+    li:hover>ul, div:hover>ol {
+        display: block;
+    }
+
+    .menu:hover .buttons {
+        display: block;
+    }
+
+    #buttones {
+        padding: 0px 5px;
+    }
+
+    .row_tea {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding: 15px;
+        background-image: url('https://i.pinimg.com/originals/09/67/39/09673964915d81d838cadcfba7b52429.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}
